@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "lib": [
+      "es2019",
+      "dom",
+      "dom.iterable"
+    ],
+    "module": "commonjs",
+    "allowJs": true,
+    "sourceMap": true,
+    "target": "es5",
+    "jsx": "react-jsx",
+    "experimentalDecorators": true,
+    "removeComments": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "baseUrl": "./src",
+    "strictNullChecks": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "typeRoots": [
+      "node_modules/@types",
+      "types"
+    ],
+    "paths": {
+      "": [""]
+    }
+  },
+  "include": [
+    "./src/**/*",
+    "./src/*",
+    "types"
+  ],
+  "exclude": [
+    "dist",
+    "node_modules"
+  ]
+}
